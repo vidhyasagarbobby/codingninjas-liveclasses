@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<div id="day3">
+		<form method="POST" action="service">
+			<label>Name: </label>
+			<input type="text" name="name" placeholder="Enter your name">
+			<br>
+			<label>Mobile No: </label>
+			<input type="number" name="mobile" placeholder="Enter Mobile Number">
+			<br>
+			<label>Gender: </label>
+			<br>
+			<input type="radio" value="male" name="gender" checked>Male
+			<input type="radio" value="female" name="gender">Female
+			<input type="radio" value="others" name="gender"> Others
+			<br>
+			<label>Course: </label>
+			<input type="radio" value="webdev"> Web Development
+			<input type="radio" value="dsa"> Data Structures & Algorithms
+			<br>
+			<label for="course">Select your course: </label>
+			<select name="course">
+				<optgroup label="Programming Language">
+					<option value="Java" name="course">Java</option>
+					<option value="Python" name="course">Python</option>
+					<option value="JavaScript" name="course">JavaScript</option>
+				</optgroup>
+				<optgroup label="Web Dev Technologies">
+					<option value="springboot">Spring Boot</option>
+					<option value="mern">MERN</option>
+					<option value="mean">MEAN</option>
+				</optgroup>
+			</select>
+			<br>
+			<label>Country: </label>
+			<select name="country">
+				<option value="India">India</option>
+				<option value="US">US</option>
+				<option value="EU">EU</option>
+			</select>
+			<br>
+			<label>Skills: </label>
+			<br>
+			<input type="checkbox" value="Java" name="skills">Java
+			<input type="checkbox" value="Python" name="skills">Python
+			<input type="checkbox" value="Git" name="skills">Git
+			<input type="checkbox" value="c++" name="skills">C++
+			<br>
+			<label>Email: </label>
+			<input type="email" name="email" placeholder="example@gmail.com">
+			<br>
+			<label>Password: </label>
+			<input type="password" name="password">
+			<br>
+			<label>Date of Birth: </label>
+			<input type="datetime-local" name="">
+			<br>
+			<label>Upload photo: </label>
+			<input type="file" name="photo" accept="image/jpeg">
+			<br>
+			<label>Rating</label>
+			<input type="range" min="1" max="10">
+			<br>
+			<input type="submit" name="formsubmit" value="Sign up">
+
+		</form>
+	</div>
+</body>
+</html>
