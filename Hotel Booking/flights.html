@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Book your Flights</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<header id="header">
+		<a href="index.html"><img src="media/Booking.png" width="100px"></a>
+		<ul>
+			<li><a href="flights.html">Flights</a></li>
+			<li><a href="hotels.html">Hotels</a></li>
+			<li><a href="trains.html">Trains</a></li>
+			<li><a href="bus.html">Bus</a></li>
+		</ul>
+	</header>
+	<main class="main-content">
+		<div id="journey-details">
+			<div id="journey-details-item">
+				<label>Source</label>
+				<input type="text" name="source">
+			</div>
+			<div id="journey-details-item">
+				<label>Destination</label>
+				<input type="text" name="destination">
+			</div>
+			<div id="journey-details-item">
+				<label>Date of Journey</label>
+				<input type="date" name="doj">
+			</div>
+			<input type="submit" value="Search">
+		</div>
+		<hr>
+
+		<div id="results">
+			<div class="flight-details">
+			</div>
+			<div class="flight-details">
+			</div>
+			<div class="flight-details">
+			</div>
+			<div class="flight-details">
+			</div>
+		</div>
+	</main>
+</body>
+</html>

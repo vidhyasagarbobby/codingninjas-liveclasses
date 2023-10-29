@@ -1,0 +1,135 @@
+body{
+	margin: 0px;
+}
+
+#header{
+	background-color: #1c50d4;
+	padding: 10px;
+}
+
+#header ul{
+	margin: 20px 0px;
+	list-style: none;
+	text-align: center;
+	display: inline-block;
+}
+
+#header li{
+	display: inline-block;
+	color: white;
+	padding: 0.8rem 1rem;
+	font-size: 1.2rem;
+	width: 4rem;
+	text-align: center;
+	margin: 0 10px;
+	border-radius: 15px;
+}
+
+#header a{
+	text-decoration: none;
+	color: white;
+}
+
+#header li:hover{
+	background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+	border-radius: 15px;
+	transition: all 0.5s;
+}
+
+#header img{
+	display: inline-block;
+}
+
+.main-content{
+	background-color: #ededdd;
+	height: 100vh;
+	padding-top: 20px;
+}
+
+
+#heading{
+	text-align: center;
+}
+
+#heading h1{
+	margin-top: 0px;
+}
+
+#testimonials{
+	display: inline-block;
+}
+
+.testimonial{
+	padding: 20px;
+	background-color: #b7a4bd;
+	margin: 20px;
+	width: 40%;
+	border-radius: 5px;
+	display: inline-block;
+}
+
+.testimonial h3{
+	font-weight: 800;
+}
+
+#footer{
+	padding-bottom: 20px;
+	background-color: #0a030d;
+	color: ghostwhite;
+	display: inline-block;
+	width: 100%;
+}
+
+#footer p{
+	display: inline-block;
+	position: relative;
+	padding: 20px;
+}
+
+#contact{
+	display: inline-block;
+	background-color: #f3edf5;
+	color: #000;
+	width: 30%;
+	padding: 15px;
+	margin-top: 20px;
+	border-radius: 5px;
+}
+
+#contact form, input, textarea{
+	display: block;
+}
+
+#contact h4{
+	margin-top: 5px;
+}
+
+/*Flights Styles*/
+
+#flights{
+	background-color: ;
+}
+
+#journey-details{
+	display: inline-block;
+	text-align: center;
+
+}
+
+#journey-details-item label, input{
+	display: inline-block;
+}
+
+#journey-details-item{
+	padding: 10px 20px;
+	background-color: ghostwhite;
+	border-radius: 5px;
+	display: inline-block;
+	margin: 10px 20px;
+}
+
+#journey-details input[type="submit"]{
+	background-color: ghostwhite;
+	padding: 10px 20px;
+	border-radius: 5px;
+}
