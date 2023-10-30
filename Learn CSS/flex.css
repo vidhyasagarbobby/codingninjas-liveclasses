@@ -1,0 +1,31 @@
+#container{
+	display: flex;
+	flex-direction: row;
+	width: 75vw;
+	height: 100vh;
+	background-color: lightgray;
+	justify-content: center;
+	align-items: center;
+}
+
+.child{
+
+}
+
+#div1{
+	background-color: red;
+	height: 200px;
+	width: 200px;
+}
+
+#div2{
+	background-color: green;
+	height: 200px;
+	width: 200px;
+}
+
+#div3{
+	background-color: blue;
+	height: 200px;
+	width: 200px;
+}

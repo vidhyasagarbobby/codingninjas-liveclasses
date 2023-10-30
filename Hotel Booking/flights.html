@@ -5,10 +5,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Book your Flights</title>
 	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 	<header id="header">
-		<a href="index.html"><img src="media/Booking.png" width="100px"></a>
+		<a href="index.html"><img src="media/Booking.png" width="75px"></a>
 		<ul>
 			<li><a href="flights.html">Flights</a></li>
 			<li><a href="hotels.html">Hotels</a></li>
@@ -18,32 +19,92 @@
 	</header>
 	<main class="main-content">
 		<div id="journey-details">
-			<div id="journey-details-item">
+			<div class="journey-details-item">
 				<label>Source</label>
 				<input type="text" name="source">
 			</div>
-			<div id="journey-details-item">
+			<div class="journey-details-item">
 				<label>Destination</label>
 				<input type="text" name="destination">
 			</div>
-			<div id="journey-details-item">
+			<div class="journey-details-item">
 				<label>Date of Journey</label>
 				<input type="date" name="doj">
 			</div>
-			<input type="submit" value="Search">
+			<div class="journey-details-item" id="search">
+				<i class="fa fa-search" aria-hidden="true"></i>
+				<input type="submit" value="Search">
+			</div>
 		</div>
 		<hr>
 
 		<div id="results">
+			<h2>Flight Details</h2>
 			<div class="flight-details">
+				<div class="flight-details-top">
+					<h3 class="flight-no">6E77F2</h3>
+					<span class="rating">4.5<i class="fa fa-star"></i></span>
+				</div>
+				<div class="flight-details-bottom">
+					<p class="from-to">HYD - DEL</p>
+					<p class="stops">No Stops</p>
+					<p class="price">Rs. 5499</p>
+				</div>
 			</div>
 			<div class="flight-details">
+				<div class="flight-details-top">
+					<h3 class="flight-no">6E77F2</h3>
+					<span class="rating">4.5<i class="fa fa-star"></i></span>
+				</div>
+				<div class="flight-details-bottom">
+					<p class="from-to">HYD - DEL</p>
+					<p class="stops">No Stops</p>
+					<p class="price">Rs. 5499</p>
+				</div>
 			</div>
 			<div class="flight-details">
+				<div class="flight-details-top">
+					<h3 class="flight-no">6E77F2</h3>
+					<span class="rating">4.5 <i class="fa fa-star"></i></span>
+				</div>
+				<div class="flight-details-bottom">
+					<p class="from-to">HYD - DEL</p>
+					<p class="stops">No Stops</p>
+					<p class="price">Rs. 5499</p>
+				</div>
 			</div>
 			<div class="flight-details">
+				<div class="flight-details-top">
+					<h3 class="flight-no">6E77F2</h3>
+					<span class="rating">4.5<i class="fa fa-star"></i></span>
+				</div>
+				<div class="flight-details-bottom">
+					<p class="from-to">HYD - DEL</p>
+					<p class="stops">No Stops</p>
+					<p class="price">Rs. 5499</p>
+				</div>
 			</div>
 		</div>
 	</main>
+	<footer id="footer">
+		<p>Copyright@Booking.com</p>
+		<div id="contact">
+			<h4>Contact Us</h4>
+			<hr>
+			<form>
+				<label>Name:</label>
+				<input type="text" name="name">
+				<label>Email: </label>
+				<input type="email" name="email">
+				<label>Query:</label>
+				<input type="text" name="query">
+				<label>Description:</label>
+				<textarea rows="3"></textarea>
+				<label>Attach files:</label>
+				<input type="files" name="attachments">
+				<input type="submit" value="Submit">
+			</form>
+		</div>
+	</footer>
 </body>
 </html>

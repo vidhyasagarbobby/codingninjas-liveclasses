@@ -38,12 +38,16 @@ body{
 
 #header img{
 	display: inline-block;
+	position: relative;
+	left: 20px;
+	top: 30px;
 }
 
 .main-content{
 	background-color: #ededdd;
-	height: 100vh;
-	padding-top: 20px;
+	height: auto;
+	padding: 20px 0 50px 0;
+	background: linear-gradient(180deg, #cae0fa, #dfb5f5);
 }
 
 
@@ -66,6 +70,7 @@ body{
 	width: 40%;
 	border-radius: 5px;
 	display: inline-block;
+	box-shadow: 1px 1px 1em #333;
 }
 
 .testimonial h3{
@@ -82,11 +87,14 @@ body{
 
 #footer p{
 	display: inline-block;
-	position: relative;
 	padding: 20px;
+	position: relative;
+	left: 20px;
 }
 
 #contact{
+	position: relative;
+	left: 30%;
 	display: inline-block;
 	background-color: #f3edf5;
 	color: #000;
@@ -96,14 +104,28 @@ body{
 	border-radius: 5px;
 }
 
-#contact form, input, textarea{
+#contact input, textarea{
 	display: block;
+	width: 80%;
 }
 
 #contact h4{
 	margin-top: 5px;
 }
 
+#contact input[type="submit"]{
+	position: relative;
+	justify-content: center;
+	top: 10px;
+	margin-bottom: 10px;
+	background-color: #000;
+	color: ghostwhite;
+	font-weight: bolder;
+	border-radius: 5px;
+	text-align: center;
+	padding: 5px 8px;
+	width: auto;
+}
 /*Flights Styles*/
 
 #flights{
@@ -120,7 +142,7 @@ body{
 	display: inline-block;
 }
 
-#journey-details-item{
+.journey-details-item{
 	padding: 10px 20px;
 	background-color: ghostwhite;
 	border-radius: 5px;
@@ -128,8 +150,63 @@ body{
 	margin: 10px 20px;
 }
 
-#journey-details input[type="submit"]{
-	background-color: ghostwhite;
-	padding: 10px 20px;
+
+#search{
+	padding: 0 10px;
 	border-radius: 5px;
+	border: 2px solid black;
+}
+.journey-details-item input[type="submit"]{
+	padding: 10px 0;
+	border: 0px solid #fff;
+	font-weight: bolder;
+	background-color: #fff;
+}
+
+#results{
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	align-items: center;
+}
+
+.flight-details{
+	display: flex;
+	flex-direction: column;
+	background-color: #f6f2f7;
+	margin: 10px 0;
+	padding: 10px;
+	width: 60%;
+	border-radius: 5px;
+	box-shadow: 1px 1px 1em #1c1b1c;
+}
+
+.flight-details-top{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	align-content: stretch;
+}
+
+.flight-details-bottom{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.flight-no{
+	position: relative;
+	left: 10px;
+	top: 5px;
+}
+
+.rating{
+	position: relative;
+	left: 75%;
+	top: 1.5rem;
+	font-weight: bold;
+}
+
+.price{
+	font-weight: bolder;
+	color: #521752;
 }
