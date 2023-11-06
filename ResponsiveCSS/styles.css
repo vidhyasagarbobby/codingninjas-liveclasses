@@ -1,0 +1,48 @@
+/*#paragraph{
+	width: 80%;
+	background-color: lightgrey;
+}
+
+@media screen and (max-width: 768px){
+	#paragraph{
+		width: 90%;
+		background-color: cyan;
+		color: #000;
+	}
+}
+
+@media screen and (max-width: 425px){
+	#paragraph{
+		width: 100%;
+		background-color: black;
+		color: white;
+	}
+}*/
+
+
+/*For Mobiles*/
+
+@media screen and (min-width: 0px){
+	#paragraph{
+		width: 100%;
+		background-color: black;
+		color: white;
+	}
+}
+
+/*For Tablets*/
+@media screen and (min-width: 426px){
+	#paragraph{
+		width: 90%;
+		background-color: cyan;
+		color: #000;
+	}
+}
+
+/*For Desktop*/
+@media screen and (min-width: 769px){
+	#paragraph{
+		width: 80%;
+		background-color: lightgrey;
+	}
+}

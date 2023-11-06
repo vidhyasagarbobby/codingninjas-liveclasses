@@ -1,0 +1,54 @@
+#box{
+	height: 200px;
+	width: 200px;
+	background-color: cyan;
+
+/*	Transform*/
+/*	transform: rotate(45deg);*/
+	/*transform: rotateX(45deg);
+	transform: rotateY(45deg);*/
+	/*transform: translate(10px, 10px);
+	transform: translateX(10px);
+	transform: translateY(10px);*/
+	/*transform: scale(1.5);
+	transform: scaleX(1.5);
+	transform: scaleY(1.5);*/
+
+/*Transition*/
+
+/*	transition: 5s ease-in-out;*/
+
+
+	animation: changeColor 2s alternate infinite;
+}
+
+@keyframes changeColor{
+	0%{
+		background-color: blue;
+	}
+
+	25%{
+		background-color: green;
+	}
+
+	50%{
+		background-color: red;
+	}
+	75%{
+		background-color: black;
+	}
+
+	100%{
+		background-color: white;
+	}
+}
+
+@keyframes changeHeight{
+	from{
+		height: 200px;
+	}
+
+	to{
+		height: 400px;
+	}
+}
